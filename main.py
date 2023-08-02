@@ -100,8 +100,8 @@ model.fit(myGene,steps_per_epoch=300,epochs=5,callbacks=[model_checkpoint])
 
 
 model.save('model_root_test.h5')
-testGene = test_data2.testData("/root_data2/test3/")
+testRoot = preProcess.testData("/root_data2/test3/")
 
 # results = model.predict_generator(testGene,30,verbose=1)
-results = model.predict(testGene,5,verbose=1)
+results = model.predict(testRoot,5,verbose=1)
 plt.imshow(results[0],aspect="auto",cmap='gray')
