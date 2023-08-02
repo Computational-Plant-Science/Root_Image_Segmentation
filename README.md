@@ -8,7 +8,7 @@ Roots were grown in a mesh frame that supported the root system after removing t
 The data can be found in the folder "data/root_data."
 
 # Data Augmentation
-For the initial experiment, the training data consists of 30 3456x5184 images, which were augmented using ImageDataGenerator to feed a deep learning neural network.
+For the initial experiment, the training data consists of 30 3456x5184 images, which were augmented using ImageDataGenerator to feed a deep learning neural network. However, here are 10 images (a total of 20 images including original and mask images) that have been published for testing purposes.
 
 For more details, refer to preProcess.py.
 
