@@ -5,7 +5,7 @@ Examples of images along with their corresponding ground truth and predicted seg
 # Data
 Roots were grown in a mesh frame that supported the root system after removing the soil. Then the images were captured using a camera at the University of Georgia. 
 
-The data can be found in the folder "data/root_data2."
+The data can be found in the folder "data/root_data."
 
 # Data Augmentation
 For the initial experiment, the training data consists of 30 3456x5184 images, which were augmented using ImageDataGenerator to feed a deep learning neural network.
