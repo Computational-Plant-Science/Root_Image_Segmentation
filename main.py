@@ -22,7 +22,7 @@ data_gen_args = dict(rotation_range=0.2,
                     zoom_range=0.05,
                     horizontal_flip=True,
                     fill_mode='nearest')
-myGene = preProcess.trainData(2,"/root_data/",'image','label2',data_gen_args,save_to_dir = save_to_dir)
+myRoot = preProcess.trainData(2,"/root_data/",'image','label2',data_gen_args,save_to_dir = save_to_dir)
 
 
 def unetModel(pretrained_weights=None, input_size=(512,512, 1)):
@@ -96,7 +96,7 @@ def unetModel(pretrained_weights=None, input_size=(512,512, 1)):
 model = unetModel()
 model_checkpoint = ModelCheckpoint('unet_membrane.hdf5', monitor='loss',verbose=1, save_best_only=True)
 # model.fit_generator(myGene,steps_per_epoch=300,epochs=1,callbacks=[model_checkpoint])
-model.fit(myGene,steps_per_epoch=300,epochs=5,callbacks=[model_checkpoint])
+model.fit(myRoot,steps_per_epoch=300,epochs=5,callbacks=[model_checkpoint])
 
 
 model.save('model_root_test.h5')
