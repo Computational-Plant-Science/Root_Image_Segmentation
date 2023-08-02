@@ -2,7 +2,7 @@
 Examples of images along with their corresponding ground truth and predicted segmented images.
 ![image](https://github.com/Computational-Plant-Science/Root_Image_Segmentation/assets/133724174/987f30db-9f33-45f1-8214-75c19554644b)
 
-Data:
+**Data:**
 Roots were grown in a mesh frame that supported the root system after removing the soil. Then the tmages were then captured using a camera at the University of Georgia. 
 
 
