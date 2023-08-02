@@ -12,7 +12,7 @@ For the initial experiment, the training data consists of 30 3456x5184 images, w
 
 For more details, refer to preProcess.py.
 
-#How to Run the script 
+# How to Run the script 
 
 Ran the main.py to train the model, and it automatically executed preprocess.py for preprocessing the images before training. Additionally, I created a separate script named preTrainedModel.py to test images using the trained model.
 
