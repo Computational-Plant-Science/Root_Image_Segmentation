@@ -14,7 +14,7 @@ For more details, refer to preProcess.py.
 
 # How to Run the script 
 
-Run the main.py to train the model, and it automatically executed preprocess.py for preprocessing the images before training. Additionally, I created a separate script named preTrainedModel.py to test images using the trained model.
+Run the main.py to train the model, and it automatically executed preProcess.py for preprocessing the images before training. Additionally, I created a separate script named preTrainedModel.py to test images using the trained model.
 
 # Model
 This deep neural network is implemented using the Keras functional API, allowing easy experimentation with various architectures.
