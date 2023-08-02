@@ -1,4 +1,4 @@
-# Root_Image_Segmentation with Deep Learning (Unet Model)
+# Root Image Segmentation with Deep Learning (Unet Model)
 Examples of images along with their corresponding ground truth and predicted segmented images.
 ![image](https://github.com/Computational-Plant-Science/Root_Image_Segmentation/assets/133724174/987f30db-9f33-45f1-8214-75c19554644b)
 
