@@ -21,8 +21,4 @@ The model was trained for 5 epochs, and after this training, the training accura
 The loss function used during training is binary crossentropy. 
 
 # Requirements
-keras, 
-tensorflow, 
-scikit-image,
-opencv-python,
-matplotlib
+keras, tensorflow, scikit-image, opencv-python and matplotlib
