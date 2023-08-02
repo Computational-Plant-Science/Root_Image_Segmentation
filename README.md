@@ -18,6 +18,6 @@ Model:
 This deep neural network is implemented using the Keras functional API, allowing easy experimentation with various architectures.
 
 Training:
-The model was trained for 5 epochs, and after this training, the calculated accuracy is approximately 0.97.
+The model was trained for 5 epochs, and after this training, the training accuracy is more than 0.98.
 
 The loss function used during training is binary crossentropy.
