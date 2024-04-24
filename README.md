@@ -26,3 +26,6 @@ The loss function used during training is binary crossentropy.
 
 # Requirements
 keras, tensorflow, scikit-image, opencv-python and matplotlib 
+
+# Author
+Kabir Hossain (kabircnu@gmail.com)
